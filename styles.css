@@ -1,0 +1,47 @@
+body,
+main,
+section,
+div{
+    border: crimson 1px solid;
+}
+
+body {
+  height: 100vh; /* Ocupa toda la altura de la viewport */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px; 
+  text-align: center;
+}
+.container-main{
+    display: flex;
+    justify-content: center;
+   
+}
+.item-result{
+    background-color:  #5D3EFB;
+    height: 50vh;
+    width: 50vh;
+}
+.your-result{
+    height: 20vh;
+}
+.circle{
+    height:20vh;
+}
+
+.great{
+    height: 20vh;
+
+}
+
+.item-summary{
+    height: 50vh;
+    width: 50vh;
+
+}
+.attribution{
+    display: flex;
+    align-self: flex-end;
+}
